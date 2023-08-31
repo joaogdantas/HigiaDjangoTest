@@ -28,7 +28,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "drf_spectacular",
-    "higiaWay",
+    "higiapostquiz",
 ]
 
 MIDDLEWARE = [
@@ -41,7 +41,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "django_quickproject.urls"
+ROOT_URLCONF = "higia_way_dba.urls"
 
 TEMPLATES = [
     {
@@ -59,7 +59,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "django_quickproject.wsgi.application"
+WSGI_APPLICATION = "higia_way_dba.wsgi.application"
 
 
 # Database

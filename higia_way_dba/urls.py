@@ -3,7 +3,7 @@ from django.urls import path
 from rest_framework.routers import SimpleRouter
 from rest_framework.authtoken import views
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
-from higiaquizpost.api.views import ContentCategoryViewSet, PostViewSet, QuestionViewSet
+from higiapostquiz.api.views import ContentCategoryViewSet, PostViewSet, QuestionViewSet
 
 router = SimpleRouter()
 

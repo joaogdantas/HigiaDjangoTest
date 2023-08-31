@@ -1,6 +1,6 @@
 from rest_framework.serializers import ModelSerializer
 
-from eventos.models import ContentCategory, Post, Question
+from higiapostquiz.models import ContentCategory, Post, Question
 
 class ContentCategorySerializer(ModelSerializer):
     class Meta:

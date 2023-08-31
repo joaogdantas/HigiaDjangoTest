@@ -1,8 +1,8 @@
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import AllowAny
-from eventos.api.serializers import ContentCategorySerializer, PostSerializer, QuestionSerializer
+from higiapostquiz.api.serializers import ContentCategorySerializer, PostSerializer, QuestionSerializer
 
-from eventos.models import ContentCategory, Post, Question
+from higiapostquiz.models import ContentCategory, Post, Question
 
 class ContentCategoryViewSet(ModelViewSet):
     permission_classes = [AllowAny]
